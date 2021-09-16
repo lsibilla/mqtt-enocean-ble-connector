@@ -1,0 +1,38 @@
+{
+  "name": "mqtt-enocean-ble-connector",
+  "version": "0.0.1",
+  "description": "Enocean BLE to MQTT bridge with Homeassistant discovery support",
+  "main": "index.js",
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-14",
+    "js-yaml": "^4.1.0",
+    "mqtt": "^4.2.6",
+    "node-enocean-ble": "0.0.2",
+    "validator": "^13.6.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lsibilla/mqtt-enocean-ble-connector.git"
+  },
+  "keywords": [
+    "mqtt",
+    "enocean",
+    "ble",
+    "homeassistant",
+    "mqtt-bridge"
+  ],
+  "author": "Laurent Sibilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsibilla/mqtt-enocean-ble-connector/issues"
+  },
+  "homepage": "https://github.com/lsibilla/mqtt-enocean-ble-connector#readme"
+}
